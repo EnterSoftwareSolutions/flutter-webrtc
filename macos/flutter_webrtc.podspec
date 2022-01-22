@@ -1,6 +1,8 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
+source 'https://github.com/webrtc-sdk/Specs.git'
+
 Pod::Spec.new do |s|
   s.name             = 'flutter_webrtc'
   s.version          = '0.7.1'
