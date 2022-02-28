@@ -233,7 +233,7 @@
         NSDictionary *pixelAttributes = @{(id)kCVPixelBufferIOSurfacePropertiesKey : @{}};
         CVPixelBufferCreate(kCFAllocatorDefault,
                             size.width, size.height,
-                            kCVPixelFormatType_32BGRA,
+                            kCVPixelFormatType_32ARGB,
                             (__bridge CFDictionaryRef)(pixelAttributes), &_pixelBufferRef);
         
         _frameSize = size;
